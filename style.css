@@ -353,11 +353,11 @@ nav .fas{
 
 
     .header-text{
-        margin-top: 20%;
+        margin-top: 30%;
         font-size: 16px; /*Software Engineer / Application Consultant*/
     }
     .header-text h1{
-        margin-top: 10%;
+        margin-top: 5%;
         font-size: 30px;  /*Hi, I'm...*/
     }
     nav .fas{
@@ -388,7 +388,7 @@ nav .fas{
     }
 
     #about{   
-        padding: 20px 0;   /* space above about me*/
+        padding: 60px 0;   /* space above about me*/
         color: #ababab;
     }
 
@@ -410,7 +410,8 @@ nav .fas{
         display: flex;
         margin: 50px 0 40px;
     }
-    .tab-links{ /*Education Experience...*/
+    .tab-links{ 
+        margin-top: 50px;  /*Space above Education Experience...*/
         font-size: 16px;
         margin-right: 20px;
     }
