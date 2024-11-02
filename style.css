@@ -354,10 +354,10 @@ nav .fas{
 
     .header-text{
         margin-top: 20%;
-        font-size: 14px;
+        font-size: 16px; /*Software Engineer / Application Consultant*/
     }
     .header-text h1{
-        margin-top: 15%;
+        margin-top: 25%;
         font-size: 30px;  /*Hi, I'm...*/
     }
     nav .fas{
@@ -386,8 +386,14 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
+
+    #about{   
+        padding: 0px 0;   /* space above about me*/
+        color: #ababab;
+    }
+
     .sub-title{    
-        font-size: 30px;/* about me*/
+        font-size: 30px;  /* about me*/
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -397,15 +403,15 @@ nav .fas{
     }
     .about-col-2{
         width: 100%;
-        font-size: 14px;
+        font-size: 14px;  /* A Computer Science...*/
 
     }
     .tab-titles{
         display: flex;
         margin: 50px 0 40px;
     }
-    .tab-links{
-        font-size: 14px;
+    .tab-links{ /*Education Experience...*/
+        font-size: 16px;
         margin-right: 18px;
     }
 
@@ -430,10 +436,11 @@ nav .fas{
     }
     .tab-contents ul li span{
         color: #b54769;
-        font-size: 12px;
+        font-size: 14px;
     }
     .tab-contents{
         display: none;
+        font-size: 14px;
     }
     .tab-contents.active-tab{
         display: block;
